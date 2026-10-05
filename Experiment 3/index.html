@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,th,td{
+            border 1px solid block;
+        }
+    </style>
+    <table border="1"align="center" cellpadding="8"cellspacing="0">
+        <Caption>College Time Table - CSE Department</Caption>
+        <tr>
+            <th>DAY / Time</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+            <th>11:00-12:00</th>
+            <th>12:00-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+        </tr>
+        <!--Monday-->
+        <tr>
+            
+            <th>Monday</th>
+            <td rowspan="2">Mathematics</td>
+            <td>English</td>
+            <td rowspan="3">Physics</td>
+            <td>Break</td>
+            <td colspan="2">Computer Lab</td>
+            <td>Sports</td>
+        </tr>
+        <!--Tuesday-->
+         <tr>
+            <th>Tuesday</th>
+            <td>C Programming</td>
+            <td>break</td>
+            <td colspan="2">Electronics Lab</td>
+            <td>Library</td>
+
+
+         </tr>
+         <!--Wednesday-->
+         <tr>
+            <th>Wednesday</th>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>Break</td>
+            <td>Computer Networks</td>
+            <!--Nested Table for Lab Details-->
+            <td colspan="2"><table border="1">
+                <caption>Lab Detais</caption>
+                <tr>
+                <th>Batch A</th>
+                <td>DBMS Lab</td>
+                </tr>
+                <tr>
+                <th>Batch B</th>
+                <td>OS Lab</td>
+                </tr>
+            </table>
+            </td>
+         </tr>
+         <!--Thursday-->
+         <tr>
+            <th>Thursday</th>
+            <th colspan="2">Workshop</th>
+            <th>physics</th>
+            <th>Break</th>
+            <th>Mathematics</th>
+            <th>English</th>
+            <th>Seminar</th>
+         </tr>
+         <!--Friday-->
+         <tr> 
+            <th>Friday</th>
+            <td>Computer Networks</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>Break</td>
+            <td colspan="3">Project Work</td>
+         </tr>
+
+         
+        </table>
+</body>
+</html>
